@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Main {
     public static void main(String[] args) {
         Student a1 =new Student();
@@ -8,6 +10,7 @@ public class Main {
         a1.addQuiz(5);
         System.out.println(a1.getAverageScore());
          System.out.println(a1.getTotalQuizScore());
+
     }
 
 

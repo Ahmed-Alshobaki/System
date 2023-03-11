@@ -2,6 +2,11 @@ public class Student {
      String name;
    double totalQuizScore;
    static int number;
+    public Student(String name) {
+        this.name = name;
+        this.totalQuizScore = 0;
+
+    }
     public void setName(String name) {
         this.name = name;
     }
@@ -18,7 +23,10 @@ public class Student {
         number++;
     }
     public double getAverageScore(){
-        double a =totalQuizScore/number;
+        if (number == 0) {
+            return 0;
+        }
+        double a =(double) totalQuizScore/number;
         return a;
     }
 }
