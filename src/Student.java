@@ -2,11 +2,11 @@ public class Student {
      String name;
    double totalQuizScore;
    static int number;
-    public Student(String name) {
-        this.name = name;
-        this.totalQuizScore = 0;
-
-    }
+//    public Student(String name) {
+//        this.name = name;
+//        this.totalQuizScore = 0;
+//
+//    }
     public void setName(String name) {
         this.name = name;
     }
