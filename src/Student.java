@@ -1,12 +1,16 @@
 public class Student {
-     String name;
-   double totalQuizScore;
-   static int number;
-//    public Student(String name) {
-//        this.name = name;
-//        this.totalQuizScore = 0;
-//
-//    }
+    private String name;
+  private double totalQuizScore;
+   private static int number;
+    public Student(String name) {
+        this.name = name;
+        this.totalQuizScore = 0;
+
+    }
+    public Student() {
+
+
+    }
     public void setName(String name) {
         this.name = name;
     }

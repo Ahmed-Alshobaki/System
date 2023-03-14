@@ -10,7 +10,11 @@ public class Main {
         a1.addQuiz(5);
         System.out.println(a1.getAverageScore());
          System.out.println(a1.getTotalQuizScore());
+         teachers s1 =new teachers("ahmed",3000,"Application developer");
+        teachers s2 =new teachers("zon",2000,"AD");
 
+        System.out.println(s1.toString());
+        System.out.println(s2.toString());
     }
 
 
