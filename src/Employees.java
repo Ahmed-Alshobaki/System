@@ -1,8 +1,8 @@
 public class Employees {
-    int id=++number;
+    private int id=++number;
     public static int number;
-    String name;
-    int Salary ;
+   private String name;
+   private int Salary ;
 
 
 
