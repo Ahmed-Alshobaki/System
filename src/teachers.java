@@ -13,9 +13,9 @@ public class teachers extends Employees{
     public String toString() {
         return "teachers{" +
                 "TypeOfJob='" + TypeOfJob + '\'' +
-                ", id=" + id +
-                ", name='" + name + '\'' +
-                ", Salary=" + Salary +
+                ", id=" + getId() +
+                ", name='" + getName() + '\'' +
+                ", Salary=" + getSalary() +
                 '}';
     }
 
